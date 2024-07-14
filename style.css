@@ -1,0 +1,80 @@
+html,body{
+    height: 100%;
+    overflow-y: hidden;
+}
+.content{
+  display: flex;
+  height: 100%;
+}
+.aside{
+  display: block;
+  width: 180px;
+  margin-top:-8px;
+  margin-left: -8px;
+  background-color: black;
+  color: white;
+  height: 100%;
+  position: fixed;
+}
+.menu_a div{
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+  height: 25px;
+  background-color: gray;
+}
+#menu_c{
+  font-size: 25px;
+}
+#menu_c input{
+  margin-left: 45px;
+}
+.menu_a img{
+  
+  margin-right: 5px;
+}
+.menu_a h3{
+  padding-bottom: 50px;
+}
+#menu_o input{
+  width: 100%;
+}
+
+article{
+  width: 100%;
+  height: 100%;
+  margin-left: 40px;
+
+}
+header{
+  align-content: center;
+  text-align: center;
+  width: 100%;
+  background-color: blue;
+  height: 70px;
+  color: white;
+  position: fixed;
+  z-index: -1;
+
+}
+tr:nth-child(even){
+  background-color: #D6EEEE;
+}
+.boxi{
+  width: 50%;
+  box-sizing: border-box;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(0,0, 0, 1);
+  justify-content: center;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+form input{
+  border: none;
+  border-bottom: 2px solid silver;
+  margin: 15px;
+  height: 20px;
+}
+.isi{
+  height: 100%;
+}
